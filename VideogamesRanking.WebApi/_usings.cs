@@ -26,4 +26,4 @@ global using VideogamesRanking.Repositories.EntityFramework;
 global using VideogamesRanking.UseCases;
 global using VideogamesRanking.WebApi;
 global using System.Security.Claims;
-
+global using FluentValidation;
