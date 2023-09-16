@@ -1,6 +1,4 @@
-﻿using VideogamesRanking.Repositories.EntityFramework;
-
-namespace VideogamesRanking.WebApi
+﻿namespace VideogamesRanking.WebApi
 {
     public class Startup
     {
@@ -48,6 +46,7 @@ namespace VideogamesRanking.WebApi
 
             services.AddTransient<SellerCompanyUseCases>();
             services.AddTransient<VideogameUseCases>();
+            services.AddTransient<ScoreUseCases>();
 
             services.AddControllers();
 
